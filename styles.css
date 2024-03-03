@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 50px 50px;
+    padding: 0 20px;
+    display: flex;
+    max-height: 800px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.albumImage {
+    width: 100px;
+    /* Adjust width to 100px */
+    height: 100px;
+    /* Adjust height to 100px */
+    margin-right: 10px;
+    margin: 15px 15px;
+}
+
+.currentsonginfo {
+    text-align: center;
+    display: flex;
+    flex: 1;
+    /* border: solid black 2px; */
+}
+
+.current-song-info {
+    margin: 15px 104px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+.audiocontainer {
+    flex: 1;
+    border: 10px black;
+    max-width: 500px;
+    margin-right: auto;
+}
+
+.playlist {
+    overflow-y: auto;
+    overflow-y: scroll;
+    max-height: 750px;
+
+}
+
+#audioPlayer {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.song-item {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.song-item:hover {
+    background-color: #e0e0e0;
+}
+
+/* Lyrics container styles */
+#lyricsContainer {
+    background-color: #f5f5f5;
+    border-left: 2px solid #ccc;
+    padding: 20px;
+    overflow-y: auto;
+    overflow-y: scroll;
+    max-height: 750px;
+    margin-left: 20px;
+    min-width: 500px;
+}
+
+/* Highlighted lyric style */
+.lyric-item.highlight {
+    background-color: #ffc107;
+    /* Change to the color you prefer */
+    color: #000;
+    /* Change to the appropriate text color */
+}
+
+/* Added hidden class */
+.hidden {
+    display: none;
+}
